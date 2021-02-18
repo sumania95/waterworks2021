@@ -1,0 +1,181 @@
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.exe.config
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.exe
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.pdb
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.xml
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.Design.dll
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.dll
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.Fonts.dll
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MySql.Data.dll
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogsIII.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ConsumerLogs.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.DashboardII.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Expenses.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ExpensesCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.SettingsIII.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.SpecialMain.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Login.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionAccount.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogsCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionMain.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionMessages.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionORScanning.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Activity_Log.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.POSCollectionLogs.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Adjustment.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AdjustmentCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintBillingStatement.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintBillingStatementSingle.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BarangayCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BarangayPtypeUpdate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CancelledPayment.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ConsumerHistoryPayment.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.UserAccount.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Messages.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintRequestFormForDCorMPO.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZones.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintCondemnForm.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintDisconnectedForm.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialsCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintReading.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ApplicationSetting.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Barangay.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CalendarYear.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogs.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CustomerRegistration.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Dashboard.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.InstallationConfirmation.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Main.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingHistory.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecordVisible.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportViewer.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.DisconnectionListView.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportAnnualConsumptionView.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportDamageMeter.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportDamageMeterView.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMax100Consumption.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMax100ConsumptionView.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMonthlyBarangayConsumption.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportSummaryInstalledView.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportYearlyConsumption.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Resources.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialInstallment.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Materials.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingPeriod.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecord.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementActive.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusCondemn.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementDisconnected.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZonesCluster.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZonesSequenceNo.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BillingStatementMultiple.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BillingStatementSingle.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CalendarYearCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusCondemnCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CustomerRegistrationCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusDisconnectedCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.InstallationConfirmationCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialInstallmentCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingPeriodCreate.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementReplace.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementStatus.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecordPrint.resources
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.vbproj.GenerateResource.Cache
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\RdlCompile.cache
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\RdlCompile.compiled
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.exe
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.xml
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.pdb
+C:\Users\User\source\repos\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AdvancePaymentCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.exe.config
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.exe
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.xml
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.pdb
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.exe
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.pdb
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\WaterworksApp.xml
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.Design.dll
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.dll
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MetroFramework.Fonts.dll
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\bin\Release\MySql.Data.dll
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.vbprojResolveAssemblyReference.cache
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogsIII.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ConsumerLogs.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.DashboardII.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Expenses.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ExpensesCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.SettingsIII.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.SpecialMain.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Login.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionAccount.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogsCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionMain.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionMessages.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionORScanning.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Collector.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Activity_Log.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.POSCollectionLogs.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Adjustment.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AdjustmentCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AdvancePaymentCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintBillingStatement.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintBillingStatementSingle.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BarangayCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BarangayPtypeUpdate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CancelledPayment.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ConsumerHistoryPayment.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.UserAccount.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Messages.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintRequestFormForDCorMPO.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZones.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintCondemnForm.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintDisconnectedForm.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Status_Update_Info.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialsCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingLogs.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.PrintReading.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ApplicationSetting.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Barangay.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CalendarYear.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CollectionLogs.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CustomerRegistration.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Dashboard.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.InstallationConfirmation.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Main.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingHistory.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecordVisible.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportViewer.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.DisconnectionListView.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportAnnualConsumptionView.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportDamageMeter.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportDamageMeterView.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMax100Consumption.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMax100ConsumptionView.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportMonthlyBarangayConsumption.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportSummaryInstalledView.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReportYearlyConsumption.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Resources.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialInstallment.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.Materials.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingPeriod.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecord.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementActive.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusCondemn.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementDisconnected.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZonesCluster.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.AllocateZonesSequenceNo.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BillingStatementMultiple.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.BillingStatementSingle.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CalendarYearCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusCondemnCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.CustomerRegistrationCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusDisconnectedCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.InstallationConfirmationCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.MaterialInstallmentCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingPeriodCreate.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementReplace.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.StatusAndReplacementStatus.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\NewTubodWaterworksSystem.ReadingRecordPrint.resources
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\WaterworksApp.vbproj.GenerateResource.Cache
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\RdlCompile.cache
+F:\AMC INNOVOTECH\2021 VB Net\NewTubodWaterworksSystem\NewTubodWaterworksSystem\obj\Release\RdlCompile.compiled

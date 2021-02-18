@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0AC99DF-CD40-4448-AA02-892DE5DB5B86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NewTubodWaterworksSystem.My.MyApplication</StartupObject>
+    <RootNamespace>NewTubodWaterworksSystem</RootNamespace>
+    <AssemblyName>WaterworksApp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WaterworksApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WaterworksApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo-as-png-8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'update_2021|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\update_2021\</OutputPath>
+    <DocumentationFile>WaterworksApp.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\InventorySystemGSO\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationCore\Accounting\CollectionLogsIII.Designer.vb">
+      <DependentUpon>CollectionLogsIII.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\CollectionLogsIII.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\ConsumerLogs.Designer.vb">
+      <DependentUpon>ConsumerLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\ConsumerLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\DashboardII.Designer.vb">
+      <DependentUpon>DashboardII.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\DashboardII.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\Expenses.Designer.vb">
+      <DependentUpon>Expenses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\Expenses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\ExpensesCreate.Designer.vb">
+      <DependentUpon>ExpensesCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\ExpensesCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\SettingsIII.Designer.vb">
+      <DependentUpon>SettingsIII.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\SettingsIII.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\SpecialMain.Designer.vb">
+      <DependentUpon>SpecialMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Accounting\SpecialMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionLogsCreate.Designer.vb">
+      <DependentUpon>CollectionLogsCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionLogsCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionORScanning.Designer.vb">
+      <DependentUpon>CollectionORScanning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionORScanning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\Collector.Designer.vb">
+      <DependentUpon>Collector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\Collector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\POSCollectionLogs.Designer.vb">
+      <DependentUpon>POSCollectionLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\POSCollectionLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\AdjustmentCreate.Designer.vb">
+      <DependentUpon>AdjustmentCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\AdjustmentCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\AdvancePaymentCreate.Designer.vb">
+      <DependentUpon>AdvancePaymentCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\AdvancePaymentCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatement.Designer.vb">
+      <DependentUpon>PrintBillingStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatementSingle.Designer.vb">
+      <DependentUpon>PrintBillingStatementSingle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatementSingle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\BarangayCreate.Designer.vb">
+      <DependentUpon>BarangayCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\BarangayCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\BarangayPtypeUpdate.Designer.vb">
+      <DependentUpon>BarangayPtypeUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\BarangayPtypeUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CancelledPayment.Designer.vb">
+      <DependentUpon>CancelledPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CancelledPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ConsumerHistoryPayment.Designer.vb">
+      <DependentUpon>ConsumerHistoryPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ConsumerHistoryPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\UserAccount.Designer.vb">
+      <DependentUpon>UserAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\UserAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Maintenance\Messages.Designer.vb">
+      <DependentUpon>Messages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Maintenance\Messages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\PrintRequestFormForDCorMPO.Designer.vb">
+      <DependentUpon>PrintRequestFormForDCorMPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\PrintRequestFormForDCorMPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Codemn\PrintCondemnForm.Designer.vb">
+      <DependentUpon>PrintCondemnForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Codemn\PrintCondemnForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Disconnected\PrintDisconnectedForm.Designer.vb">
+      <DependentUpon>PrintDisconnectedForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Disconnected\PrintDisconnectedForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Update Info\Status_Update_Info.Designer.vb">
+      <DependentUpon>Status_Update_Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Update Info\Status_Update_Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Materials\MaterialsCreate.Designer.vb">
+      <DependentUpon>MaterialsCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Materials\MaterialsCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingLogs.Designer.vb">
+      <DependentUpon>ReadingLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\PrintReading.Designer.vb">
+      <DependentUpon>PrintReading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\PrintReading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingHistory.Designer.vb">
+      <DependentUpon>ReadingHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecordVisible.Designer.vb">
+      <DependentUpon>ReadingRecordVisible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecordVisible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\ReportsView\ReportViewer.Designer.vb">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\ReportsView\ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\ReportsView\ReportViewer_DC_List.Designer.vb">
+      <DependentUpon>ReportViewer_DC_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\ReportsView\ReportViewer_DC_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Disconnection List\ReportViewer_DCList.Designer.vb">
+      <DependentUpon>ReportViewer_DCList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Disconnection List\ReportViewer_DCList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\DisconnectionListView.Designer.vb">
+      <DependentUpon>DisconnectionListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\DisconnectionListView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Disconnection_CreateView.Designer.vb">
+      <DependentUpon>Disconnection_CreateView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Disconnection_CreateView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Download Info Account\Download_Information_List.Designer.vb">
+      <DependentUpon>Download_Information_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\Download Info Account\Download_Information_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportAnnualConsumptionView.Designer.vb">
+      <DependentUpon>ReportAnnualConsumptionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportAnnualConsumptionView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportDamageMeter.Designer.vb">
+      <DependentUpon>ReportDamageMeter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportDamageMeter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportDamageMeterView.Designer.vb">
+      <DependentUpon>ReportDamageMeterView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportDamageMeterView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMax100Consumption.Designer.vb">
+      <DependentUpon>ReportMax100Consumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMax100Consumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMax100ConsumptionView.Designer.vb">
+      <DependentUpon>ReportMax100ConsumptionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMax100ConsumptionView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMonthlyBarangayConsumption.Designer.vb">
+      <DependentUpon>ReportMonthlyBarangayConsumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportMonthlyBarangayConsumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportSummaryInstalledView.Designer.vb">
+      <DependentUpon>ReportSummaryInstalledView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportSummaryInstalledView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportYearlyConsumption.Designer.vb">
+      <DependentUpon>ReportYearlyConsumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reports\ReportYearlyConsumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ConnectionDB.vb" />
+    <Compile Include="ReportDataset\DataSetBilling.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBilling.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetBilling.vb">
+      <DependentUpon>DataSetBilling.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetConsumers.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConsumers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetConsumers.vb">
+      <DependentUpon>DataSetConsumers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionAccount.Designer.vb">
+      <DependentUpon>CollectionAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionMain.Designer.vb">
+      <DependentUpon>CollectionMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionMessages.Designer.vb">
+      <DependentUpon>CollectionMessages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Treasury\CollectionMessages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\ActivityLog.Designer.vb">
+      <DependentUpon>ActivityLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\ActivityLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\Adjustment.Designer.vb">
+      <DependentUpon>Adjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Adjustment\Adjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZones.Designer.vb">
+      <DependentUpon>AllocateZones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Maintenance\ApplicationSetting.Designer.vb">
+      <DependentUpon>ApplicationSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Maintenance\ApplicationSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\Barangay.Designer.vb">
+      <DependentUpon>Barangay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\Barangay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CalendarYear.Designer.vb">
+      <DependentUpon>CalendarYear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CalendarYear.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\CollectionLogs.Designer.vb">
+      <DependentUpon>CollectionLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Activity and Collection Logs\CollectionLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistration.Designer.vb">
+      <DependentUpon>CustomerRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmation.Designer.vb">
+      <DependentUpon>InstallationConfirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Main and Dashboard\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallment.Designer.vb">
+      <DependentUpon>MaterialInstallment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Materials\Materials.Designer.vb">
+      <DependentUpon>Materials.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Materials\Materials.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ReadingPeriod.Designer.vb">
+      <DependentUpon>ReadingPeriod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ReadingPeriod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecord.Designer.vb">
+      <DependentUpon>ReadingRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusAndReplacementActive.Designer.vb">
+      <DependentUpon>StatusAndReplacementActive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusAndReplacementActive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusCondemn.Designer.vb">
+      <DependentUpon>StatusCondemn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusCondemn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusDisconnected.Designer.vb">
+      <DependentUpon>StatusDisconnected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\StatusDisconnected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesCluster.Designer.vb">
+      <DependentUpon>AllocateZonesCluster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesCluster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesSequenceNo.Designer.vb">
+      <DependentUpon>AllocateZonesSequenceNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesSequenceNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementMultiple.Designer.vb">
+      <DependentUpon>BillingStatementMultiple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementMultiple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementSingle.Designer.vb">
+      <DependentUpon>BillingStatementSingle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementSingle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CalendarYearCreate.Designer.vb">
+      <DependentUpon>CalendarYearCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\CalendarYearCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Codemn\StatusCondemnCreate.Designer.vb">
+      <DependentUpon>StatusCondemnCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Codemn\StatusCondemnCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistrationCreate.Designer.vb">
+      <DependentUpon>CustomerRegistrationCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistrationCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Disconnected\StatusDisconnectedCreate.Designer.vb">
+      <DependentUpon>StatusDisconnectedCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Disconnected\StatusDisconnectedCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallmentCreate.Designer.vb">
+      <DependentUpon>MaterialInstallmentCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallmentCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecordPrint.Designer.vb">
+      <DependentUpon>ReadingRecordPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Reading\ReadingRecordPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmationCreate.Designer.vb">
+      <DependentUpon>InstallationConfirmationCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmationCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ReadingPeriodCreate.Designer.vb">
+      <DependentUpon>ReadingPeriodCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Category\ReadingPeriodCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementReplace.Designer.vb">
+      <DependentUpon>StatusAndReplacementReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementStatus.Designer.vb">
+      <DependentUpon>StatusAndReplacementStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetDamageMeter.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDamageMeter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetDisconnectionList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDisconnectionList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataset\DataSetDisconnectionList.vb">
+      <DependentUpon>DataSetDisconnectionList.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApplicationCore\Accounting\CollectionLogsIII.resx">
+      <DependentUpon>CollectionLogsIII.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\ConsumerLogs.resx">
+      <DependentUpon>ConsumerLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\DashboardII.resx">
+      <DependentUpon>DashboardII.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\Expenses.resx">
+      <DependentUpon>Expenses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\ExpensesCreate.resx">
+      <DependentUpon>ExpensesCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\SettingsIII.resx">
+      <DependentUpon>SettingsIII.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Accounting\SpecialMain.resx">
+      <DependentUpon>SpecialMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\CollectionAccount.resx">
+      <DependentUpon>CollectionAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\CollectionLogsCreate.resx">
+      <DependentUpon>CollectionLogsCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\CollectionMain.resx">
+      <DependentUpon>CollectionMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\CollectionMessages.resx">
+      <DependentUpon>CollectionMessages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\CollectionORScanning.resx">
+      <DependentUpon>CollectionORScanning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Treasury\Collector.resx">
+      <DependentUpon>Collector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Activity and Collection Logs\ActivityLog.resx">
+      <DependentUpon>ActivityLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Activity and Collection Logs\POSCollectionLogs.resx">
+      <DependentUpon>POSCollectionLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Adjustment\Adjustment.resx">
+      <DependentUpon>Adjustment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Adjustment\AdjustmentCreate.resx">
+      <DependentUpon>AdjustmentCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Adjustment\AdvancePaymentCreate.resx">
+      <DependentUpon>AdvancePaymentCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatement.resx">
+      <DependentUpon>PrintBillingStatement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\PrintBillingStatementSingle.resx">
+      <DependentUpon>PrintBillingStatementSingle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\BillStatementMultiple.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\BillStatementSingle.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\BarangayCreate.resx">
+      <DependentUpon>BarangayCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\BarangayPtypeUpdate.resx">
+      <DependentUpon>BarangayPtypeUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\CancelledPayment.resx">
+      <DependentUpon>CancelledPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\ConsumerHistoryPayment.resx">
+      <DependentUpon>ConsumerHistoryPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Main and Dashboard\UserAccount.resx">
+      <DependentUpon>UserAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Maintenance\Messages.resx">
+      <DependentUpon>Messages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Active\PrintRequestFormForDCorMPO.resx">
+      <DependentUpon>PrintRequestFormForDCorMPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Active\RequestForDC.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\AllocateZones.resx">
+      <DependentUpon>AllocateZones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Codemn\PrintCondemnForm.resx">
+      <DependentUpon>PrintCondemnForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Codemn\RequestForActiveMPO.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Disconnected\PrintDisconnectedForm.resx">
+      <DependentUpon>PrintDisconnectedForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Disconnected\RequestForActiveDC.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Update Info\Status_Update_Info.resx">
+      <DependentUpon>Status_Update_Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Materials and Installment\Materials\MaterialsCreate.resx">
+      <DependentUpon>MaterialsCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingLogs.resx">
+      <DependentUpon>ReadingLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\PrintReading.resx">
+      <DependentUpon>PrintReading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingList.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Maintenance\ApplicationSetting.resx">
+      <DependentUpon>ApplicationSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\Barangay.resx">
+      <DependentUpon>Barangay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\CalendarYear.resx">
+      <DependentUpon>CalendarYear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Activity and Collection Logs\CollectionLogs.resx">
+      <DependentUpon>CollectionLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistration.resx">
+      <DependentUpon>CustomerRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Main and Dashboard\Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmation.resx">
+      <DependentUpon>InstallationConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Main and Dashboard\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingHistory.resx">
+      <DependentUpon>ReadingHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingRecordVisible.resx">
+      <DependentUpon>ReadingRecordVisible.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\ReportsView\Authentication.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\ReportsView\Report1.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\ReportsView\ReportViewer.resx">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\ReportsView\ReportViewer_DC_List.resx">
+      <DependentUpon>ReportViewer_DC_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\Disconnection List\DisconnectionList.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\Disconnection List\ReportViewer_DCList.resx">
+      <DependentUpon>ReportViewer_DCList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\DisconnectionListView.resx">
+      <DependentUpon>DisconnectionListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\DamageMeter.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\Disconnection_CreateView.resx">
+      <DependentUpon>Disconnection_CreateView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\Download Info Account\Download_Information_List.resx">
+      <DependentUpon>Download_Information_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\Download Info Account\DownloadInfoList.rdlc" />
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportAnnualConsumptionView.resx">
+      <DependentUpon>ReportAnnualConsumptionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportDamageMeter.resx">
+      <DependentUpon>ReportDamageMeter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportDamageMeterView.resx">
+      <DependentUpon>ReportDamageMeterView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportMax100Consumption.resx">
+      <DependentUpon>ReportMax100Consumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportMax100ConsumptionView.resx">
+      <DependentUpon>ReportMax100ConsumptionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportMonthlyBarangayConsumption.resx">
+      <DependentUpon>ReportMonthlyBarangayConsumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportSummaryInstalledView.resx">
+      <DependentUpon>ReportSummaryInstalledView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reports\ReportYearlyConsumption.resx">
+      <DependentUpon>ReportYearlyConsumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallment.resx">
+      <DependentUpon>MaterialInstallment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Materials and Installment\Materials\Materials.resx">
+      <DependentUpon>Materials.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\ReadingPeriod.resx">
+      <DependentUpon>ReadingPeriod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingRecord.resx">
+      <DependentUpon>ReadingRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\StatusAndReplacementActive.resx">
+      <DependentUpon>StatusAndReplacementActive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\StatusCondemn.resx">
+      <DependentUpon>StatusCondemn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\StatusDisconnected.resx">
+      <DependentUpon>StatusDisconnected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesCluster.resx">
+      <DependentUpon>AllocateZonesCluster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\AllocateZonesSequenceNo.resx">
+      <DependentUpon>AllocateZonesSequenceNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementMultiple.resx">
+      <DependentUpon>BillingStatementMultiple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Billing Statement\BillingStatementSingle.resx">
+      <DependentUpon>BillingStatementSingle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\CalendarYearCreate.resx">
+      <DependentUpon>CalendarYearCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Codemn\StatusCondemnCreate.resx">
+      <DependentUpon>StatusCondemnCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\CustomerRegistrationCreate.resx">
+      <DependentUpon>CustomerRegistrationCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Disconnected\StatusDisconnectedCreate.resx">
+      <DependentUpon>StatusDisconnectedCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\InstallationConfirmationCreate.resx">
+      <DependentUpon>InstallationConfirmationCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Materials and Installment\Installment\MaterialInstallmentCreate.resx">
+      <DependentUpon>MaterialInstallmentCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Category\ReadingPeriodCreate.resx">
+      <DependentUpon>ReadingPeriodCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementReplace.resx">
+      <DependentUpon>StatusAndReplacementReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Manage Account\Active\StatusAndReplacementStatus.resx">
+      <DependentUpon>StatusAndReplacementStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationCore\Waterworks\Reading\ReadingRecordPrint.resx">
+      <DependentUpon>ReadingRecordPrint.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReportDataset\DataSetBilling.xsc">
+      <DependentUpon>DataSetBilling.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetBilling.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBilling.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReportDataset\DataSetBilling.xss">
+      <DependentUpon>DataSetBilling.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetConsumers.xsc">
+      <DependentUpon>DataSetConsumers.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetConsumers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConsumers.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReportDataset\DataSetConsumers.xss">
+      <DependentUpon>DataSetConsumers.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetDamageMeter.xsc">
+      <DependentUpon>DataSetDamageMeter.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetDamageMeter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDamageMeter.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReportDataset\DataSetDamageMeter.xss">
+      <DependentUpon>DataSetDamageMeter.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApplicationCore\Waterworks\Reports\RDLC\" />
+    <Folder Include="Library\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReportDataset\DataSetDisconnectionList.xsc">
+      <DependentUpon>DataSetDisconnectionList.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataset\DataSetDisconnectionList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDisconnectionList.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReportDataset\DataSetDisconnectionList.xss">
+      <DependentUpon>DataSetDisconnectionList.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Spinner-1s-200px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo-as-png-8.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
